@@ -44,7 +44,7 @@ jobs:
           -X POST \
           -H "Accept: application/json" \
           -H "Content-Type: application/json" \
-          -d '{"client_id":"${{ vars.OAUTH_ID }}", "client_secret":"${{ secrets.OAUTH_SECRET }}", "grant_type":"client_credentials"}')
+          -d '{"client_id":"${{ vars.OAUTH_SOURCE_ID }}", "client_secret":"${{ secrets.OAUTH_SOURCE_SECRET }}", "grant_type":"client_credentials"}')
           echo "SOURCE_TOKEN=$SOURCE_TOKEN" >> $GITHUB_ENV
 
       - name: "Run export command on source tenant"
@@ -70,7 +70,7 @@ jobs:
           -X POST \
           -H "Accept: application/json" \
           -H "Content-Type: application/json" \
-          -d '{"client_id":"${{ vars.OAUTH_ID }}", "client_secret":"${{ secrets.OAUTH_SECRET }}", "grant_type":"client_credentials"}')
+          -d '{"client_id":"${{ vars.OAUTH_TARGET_ID }}", "client_secret":"${{ secrets.OAUTH_TARGET_SECRET }}", "grant_type":"client_credentials"}')
           echo "TARGET_TOKEN=$TARGET_TOKEN" >> $GITHUB_ENV
           
       - name: "Upload app to target tenant"
