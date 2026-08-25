@@ -1,0 +1,8 @@
+{
+    "id":"46d3491b-32fb-4af9-953b-f92d80d23067-rndcvvmx",
+    "name":"BIG",
+    "sourceTenant":"kaa-qcs.eu.qlikcloud.com/",
+    "targetTenant":"kaa-cap.uk.qlikcloud.com",
+    "targetSpaceId":"6a71b3d8307eac2ac887a3b4",
+    "sourceAppId":"8501acb2-15ef-4deb-b77b-c6fd4b670e9a"
+}
