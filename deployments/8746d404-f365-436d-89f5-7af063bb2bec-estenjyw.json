@@ -1,0 +1,8 @@
+{
+    "id":"8746d404-f365-436d-89f5-7af063bb2bec-estenjyw",
+    "name":"Sales Team Beta",
+    "sourceTenant":"kaa-qcs.eu.qlikcloud.com",
+    "targetTenant":"kaa-cap.uk.qlikcloud.com",
+    "targetSpaceId":"6a71b3d8307eac2ac887a3b4",
+    "sourceAppId":"24e4cbf9-6c54-4e0f-bd3e-1f32dcc64c8a"
+}
