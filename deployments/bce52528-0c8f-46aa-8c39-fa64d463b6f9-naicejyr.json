@@ -1,0 +1,8 @@
+{
+    "id":"bce52528-0c8f-46aa-8c39-fa64d463b6f9-naicejyr",
+    "name":"",
+    "sourceTenant":"kaa-qcs.eu.qlikcloud.com",
+    "targetTenant":"kaa-cap.uk.qlikcloud.com",
+    "targetSpaceId":"6a71b3d8307eac2ac887a3b4",
+    "sourceAppId":"24e4cbf9-6c54-4e0f-bd3e-1f32dcc64c8a"
+}
